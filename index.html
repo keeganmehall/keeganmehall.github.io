@@ -4,6 +4,7 @@
 	
 	
 	<link rel="stylesheet" href="style.css"></link>
+	<title>Keegan Mehall</title>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,15 +17,48 @@
 	</script>
 </head>
 <body>
-	<p>Here are a few of my programming projects. Please remember that they are works in progress and may not be compatable across all web browsers. They have been tested in Firefox and Chrome</p>
-	<div>
-		<a href="https://keeganmehall.github.io/simulations/rccircuit.html" target="_blank"> Series RC Circuit Simulation</a>
-	</div>
-	<div>
-		<a href="https://keeganmehall.github.io/dotsgame" target="_blank"> Dots Game</a>
-	</div>
-	<div>
-		<a href="https://keeganmehall.github.io/EquationExplorer/" target="_blank"> EquationExplorer</a>
+	<div id='container'>
+		<h1>Keegan Mehall</h1>
+
+		<p>Below are a few of my programming projects. They are works in progress and may not be fully compatable with all web browsers. They have been tested in Firefox and Chrome.</p>
+		<section class='project'>
+			<a href="https://keeganmehall.github.io/simulations/rccircuit.html" target="_blank">
+				<header class='project-left'>
+					<h2>RC Circuit Simulation</h2>
+		
+					<img class='project-img' src='rccircuit.svg'></img>
+				</header>
+			</a>
+			<p class='project-right'>
+				A simulation of the behavior of an RC (Resistor-Capacitor) circuit. Values for resistance and capacitance can be changed by clicking on the components. The voltage source (incorrectly shown as a battery) can output signals according to three settings selected in the dropdown menu: 'constant', which makes the voltage constant for all time; 'node voltage', which sets the voltage constant for all future time (and therefore can show step responses); and 'sinusoidal', which outputs a sinusoidal signal with time. For 'constant' and 'node voltage', the voltage can be set by clicking on the battery. All updates are immediately shown on the graph.
+			</p>
+		</section>
+		
+		<section class='project'>
+			<a href="https://keeganmehall.github.io/dotsgame" target="_blank">
+				<header class='project-left'>
+					<h2>Dots Game</h2>
+		
+					<img class='project-img' src='dotsgame.svg'></img>
+				</header>
+			</a>
+			<p class='project-right'>
+				A puzzle game based on the <a ref='https://en.wikipedia.org/wiki/Travelling_salesman_problem'> traveling salesman problem</a>. Users find the shortest path through all dots starting at thee green dot and ending with the red dot, by clicking or touching the dots. (This differs from the traditional traveling salesman problem, in which the route must return to the start point.) The length of the user's path is shown by the blue bar on the right side, relative to the optimal path shown by the green line.
+			</p>
+		</section>
+		
+		<section class='project'>
+			<a href="https://keeganmehall.github.io/EquationExplorer" target="_blank">
+				<header class='project-left'>
+					<h2>EquationExplorer</h2>
+		
+					<img class='project-img' src='equationexplorer.png'></img>
+				</header>
+			</a>
+			<p class='project-right'>
+				An equation grapher, originally built by Kevin Mehall, supporting implicit and parametric equations and vector fields. In one of my first programming projects, I added the parametric grapher and later combined all three graph types, which were on separate pages, allowing comparisons between them.
+			</p>
+		</section>
 	</div>
 </body>
 </html>

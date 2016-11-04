@@ -1,0 +1,56 @@
+#container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#container > h1{
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size:36px;
+	letter-spacing: 0.09em;
+}
+
+a{
+	text-decoration:none
+}
+
+.project-left{
+	float:left;
+	width:180px;
+	border: 5px solid #555555;
+	/*border-top: 8px solid #555555;*/
+	border-radius: 8px;
+	display:block;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+.project{
+	
+	overflow: hidden;
+	height: auto;
+	
+	
+}
+.project-right{
+	margin-top:0;
+}
+.project-left:hover{
+	box-shadow: 5px 5px 2px #aaaaaa;
+}
+
+.project-img{
+	width:90%;
+	margin:auto;
+	margin-bottom:5;
+	display:block;
+	
+}
+
+h2{
+	font-size:18px;
+	margin-top: 0px;
+	text-align:center;
+	color:black
+}
+
